@@ -7,15 +7,30 @@
 //
 
 #import "SpeakToSnapAppDelegate.h"
+#import "SpeakToSnapViewController.h"
 
 @implementation SpeakToSnapAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    [self presentCamera];
+    
     return YES;
 }
-							
+
+//- (void)presentCamera
+//{
+//    UIImagePickerController *cameraUI = [[UIImagePickerController alloc] init];
+//    cameraUI.sourceType = UIImagePickerControllerSourceTypeCamera;
+//    cameraUI.mediaTypes = [UIImagePickerController availableMediaTypesForSourceType: UIImagePickerControllerSourceTypeCamera];
+//    cameraUI.allowsEditing = NO;
+//    SpeakToSnapViewController *sVC = (SpeakToSnapViewController *)self.window.rootViewController;
+//    cameraUI.delegate = sVC;
+//    
+//    [self.window.rootViewController presentViewController:cameraUI animated:YES completion:nil];
+//}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

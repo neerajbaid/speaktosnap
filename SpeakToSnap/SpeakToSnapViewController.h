@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <OpenEars/LanguageModelGenerator.h>
+#import <OpenEars/PocketsphinxController.h>
+#import <OpenEars/AcousticModel.h>
+#import <OpenEars/OpenEarsEventsObserver.h>
 
-@interface SpeakToSnapViewController : UIViewController
+@interface SpeakToSnapViewController : UIViewController <OpenEarsEventsObserverDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+{
+    PocketsphinxController *pocketsphinxController;
+    OpenEarsEventsObserver *openEarsEventsObserver;
+}
+
+@property (nonatomic, strong) PocketsphinxController *pocketsphinxController;
+@property (nonatomic, strong) OpenEarsEventsObserver *openEarsEventsObserver;
 
 @end

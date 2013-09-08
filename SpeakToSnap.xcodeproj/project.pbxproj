@@ -25,6 +25,8 @@
 		07874DE117DC73F700C27831 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07874DDD17DC73F700C27831 /* AcousticModelSpanish.bundle */; };
 		07874DE217DC73F700C27831 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DDE17DC73F700C27831 /* OpenEars.framework */; };
 		07874DE317DC73F700C27831 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DDF17DC73F700C27831 /* Slt.framework */; };
+		07874DE517DC76C200C27831 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DE417DC76C200C27831 /* AVFoundation.framework */; };
+		07874DE717DC781600C27831 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DE617DC781600C27831 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		07874DDD17DC73F700C27831 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
 		07874DDE17DC73F700C27831 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
 		07874DDF17DC73F700C27831 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		07874DE417DC76C200C27831 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		07874DE617DC781600C27831 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07874DE717DC781600C27831 /* AudioToolbox.framework in Frameworks */,
+				07874DE517DC76C200C27831 /* AVFoundation.framework in Frameworks */,
 				07874DE317DC73F700C27831 /* Slt.framework in Frameworks */,
 				07874DA917DC736600C27831 /* CoreGraphics.framework in Frameworks */,
 				07874DAB17DC736600C27831 /* UIKit.framework in Frameworks */,
@@ -111,6 +117,8 @@
 		07874DA517DC736600C27831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07874DE617DC781600C27831 /* AudioToolbox.framework */,
+				07874DE417DC76C200C27831 /* AVFoundation.framework */,
 				07874DDB17DC73F700C27831 /* OpenEars Framework */,
 				07874DA617DC736600C27831 /* Foundation.framework */,
 				07874DA817DC736600C27831 /* CoreGraphics.framework */,
