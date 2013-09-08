@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0701036217DC8235007910A8 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0701035E17DC8235007910A8 /* AcousticModelEnglish.bundle */; };
+		0701036317DC8235007910A8 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0701035F17DC8235007910A8 /* AcousticModelSpanish.bundle */; };
+		0701036417DC8235007910A8 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701036017DC8235007910A8 /* OpenEars.framework */; };
+		0701036517DC8235007910A8 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701036117DC8235007910A8 /* Slt.framework */; };
+		0701036E17DC85D2007910A8 /* Integration.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0701036717DC85D2007910A8 /* Integration.pdf */; };
+		0701036F17DC85D2007910A8 /* R1PhotoEffectsResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0701036A17DC85D2007910A8 /* R1PhotoEffectsResources.bundle */; };
+		0701037017DC85D2007910A8 /* R1PhotoEffectsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701036B17DC85D2007910A8 /* R1PhotoEffectsSDK.a */; };
+		0701037117DC85D2007910A8 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 0701036D17DC85D2007910A8 /* VERSION */; };
+		0701037317DC8611007910A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037217DC8611007910A8 /* SystemConfiguration.framework */; };
+		0701037517DC8616007910A8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037417DC8616007910A8 /* OpenGLES.framework */; };
+		0701037717DC861C007910A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037617DC861C007910A8 /* QuartzCore.framework */; };
+		0701037917DC8627007910A8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037817DC8627007910A8 /* CoreMedia.framework */; };
+		0701037B17DC862B007910A8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037A17DC862B007910A8 /* CoreVideo.framework */; };
+		0701037D17DC8635007910A8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037C17DC8635007910A8 /* CoreText.framework */; };
+		0701037F17DC864F007910A8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701037E17DC864F007910A8 /* CoreTelephony.framework */; };
+		0701038117DC8657007910A8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701038017DC8657007910A8 /* MobileCoreServices.framework */; };
+		0701038317DC8662007910A8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0701038217DC8662007910A8 /* StoreKit.framework */; };
 		07874DA717DC736600C27831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DA617DC736600C27831 /* Foundation.framework */; };
 		07874DA917DC736600C27831 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DA817DC736600C27831 /* CoreGraphics.framework */; };
 		07874DAB17DC736600C27831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DAA17DC736600C27831 /* UIKit.framework */; };
@@ -21,10 +38,6 @@
 		07874DC817DC736600C27831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DAA17DC736600C27831 /* UIKit.framework */; };
 		07874DD017DC736600C27831 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07874DCE17DC736600C27831 /* InfoPlist.strings */; };
 		07874DD217DC736600C27831 /* SpeakToSnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07874DD117DC736600C27831 /* SpeakToSnapTests.m */; };
-		07874DE017DC73F700C27831 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07874DDC17DC73F700C27831 /* AcousticModelEnglish.bundle */; };
-		07874DE117DC73F700C27831 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07874DDD17DC73F700C27831 /* AcousticModelSpanish.bundle */; };
-		07874DE217DC73F700C27831 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DDE17DC73F700C27831 /* OpenEars.framework */; };
-		07874DE317DC73F700C27831 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DDF17DC73F700C27831 /* Slt.framework */; };
 		07874DE517DC76C200C27831 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DE417DC76C200C27831 /* AVFoundation.framework */; };
 		07874DE717DC781600C27831 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07874DE617DC781600C27831 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +53,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0701035E17DC8235007910A8 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		0701035F17DC8235007910A8 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		0701036017DC8235007910A8 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		0701036117DC8235007910A8 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		0701036717DC85D2007910A8 /* Integration.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Integration.pdf; sourceTree = "<group>"; };
+		0701036817DC85D2007910A8 /* R1PhotoEffectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R1PhotoEffectsController.h; sourceTree = "<group>"; };
+		0701036917DC85D2007910A8 /* R1PhotoEffectsEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R1PhotoEffectsEditingViewController.h; sourceTree = "<group>"; };
+		0701036A17DC85D2007910A8 /* R1PhotoEffectsResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = R1PhotoEffectsResources.bundle; sourceTree = "<group>"; };
+		0701036B17DC85D2007910A8 /* R1PhotoEffectsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = R1PhotoEffectsSDK.a; sourceTree = "<group>"; };
+		0701036C17DC85D2007910A8 /* R1PhotoEffectsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R1PhotoEffectsSDK.h; sourceTree = "<group>"; };
+		0701036D17DC85D2007910A8 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		0701037217DC8611007910A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0701037417DC8616007910A8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0701037617DC861C007910A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0701037817DC8627007910A8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0701037A17DC862B007910A8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0701037C17DC8635007910A8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0701037E17DC864F007910A8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0701038017DC8657007910A8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0701038217DC8662007910A8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		07874DA317DC736600C27831 /* SpeakToSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakToSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07874DA617DC736600C27831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07874DA817DC736600C27831 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +92,6 @@
 		07874DCD17DC736600C27831 /* SpeakToSnapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakToSnapTests-Info.plist"; sourceTree = "<group>"; };
 		07874DCF17DC736600C27831 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07874DD117DC736600C27831 /* SpeakToSnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakToSnapTests.m; sourceTree = "<group>"; };
-		07874DDC17DC73F700C27831 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
-		07874DDD17DC73F700C27831 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
-		07874DDE17DC73F700C27831 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
-		07874DDF17DC73F700C27831 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
 		07874DE417DC76C200C27831 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		07874DE617DC781600C27831 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -72,13 +101,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07874DE717DC781600C27831 /* AudioToolbox.framework in Frameworks */,
-				07874DE517DC76C200C27831 /* AVFoundation.framework in Frameworks */,
-				07874DE317DC73F700C27831 /* Slt.framework in Frameworks */,
+				0701038317DC8662007910A8 /* StoreKit.framework in Frameworks */,
+				0701038117DC8657007910A8 /* MobileCoreServices.framework in Frameworks */,
+				0701037F17DC864F007910A8 /* CoreTelephony.framework in Frameworks */,
+				0701037D17DC8635007910A8 /* CoreText.framework in Frameworks */,
 				07874DA917DC736600C27831 /* CoreGraphics.framework in Frameworks */,
+				0701037B17DC862B007910A8 /* CoreVideo.framework in Frameworks */,
+				0701037917DC8627007910A8 /* CoreMedia.framework in Frameworks */,
+				07874DE517DC76C200C27831 /* AVFoundation.framework in Frameworks */,
+				0701037717DC861C007910A8 /* QuartzCore.framework in Frameworks */,
+				0701037517DC8616007910A8 /* OpenGLES.framework in Frameworks */,
+				0701037317DC8611007910A8 /* SystemConfiguration.framework in Frameworks */,
+				07874DE717DC781600C27831 /* AudioToolbox.framework in Frameworks */,
+				0701037017DC85D2007910A8 /* R1PhotoEffectsSDK.a in Frameworks */,
+				0701036517DC8235007910A8 /* Slt.framework in Frameworks */,
 				07874DAB17DC736600C27831 /* UIKit.framework in Frameworks */,
 				07874DA717DC736600C27831 /* Foundation.framework in Frameworks */,
-				07874DE217DC73F700C27831 /* OpenEars.framework in Frameworks */,
+				0701036417DC8235007910A8 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +134,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0701035D17DC8235007910A8 /* OpenEars Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0701035E17DC8235007910A8 /* AcousticModelEnglish.bundle */,
+				0701035F17DC8235007910A8 /* AcousticModelSpanish.bundle */,
+				0701036017DC8235007910A8 /* OpenEars.framework */,
+				0701036117DC8235007910A8 /* Slt.framework */,
+			);
+			path = "OpenEars Framework";
+			sourceTree = "<group>";
+		};
+		0701036617DC85D2007910A8 /* R1PhotoEffectsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0701036717DC85D2007910A8 /* Integration.pdf */,
+				0701036817DC85D2007910A8 /* R1PhotoEffectsController.h */,
+				0701036917DC85D2007910A8 /* R1PhotoEffectsEditingViewController.h */,
+				0701036A17DC85D2007910A8 /* R1PhotoEffectsResources.bundle */,
+				0701036B17DC85D2007910A8 /* R1PhotoEffectsSDK.a */,
+				0701036C17DC85D2007910A8 /* R1PhotoEffectsSDK.h */,
+				0701036D17DC85D2007910A8 /* VERSION */,
+			);
+			path = R1PhotoEffectsSDK;
+			sourceTree = "<group>";
+		};
 		07874D9A17DC736600C27831 = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +181,19 @@
 		07874DA517DC736600C27831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0701038217DC8662007910A8 /* StoreKit.framework */,
+				0701038017DC8657007910A8 /* MobileCoreServices.framework */,
+				0701037E17DC864F007910A8 /* CoreTelephony.framework */,
+				0701037C17DC8635007910A8 /* CoreText.framework */,
+				0701037A17DC862B007910A8 /* CoreVideo.framework */,
+				0701037817DC8627007910A8 /* CoreMedia.framework */,
+				0701037617DC861C007910A8 /* QuartzCore.framework */,
+				0701037417DC8616007910A8 /* OpenGLES.framework */,
+				0701037217DC8611007910A8 /* SystemConfiguration.framework */,
+				0701036617DC85D2007910A8 /* R1PhotoEffectsSDK */,
+				0701035D17DC8235007910A8 /* OpenEars Framework */,
 				07874DE617DC781600C27831 /* AudioToolbox.framework */,
 				07874DE417DC76C200C27831 /* AVFoundation.framework */,
-				07874DDB17DC73F700C27831 /* OpenEars Framework */,
 				07874DA617DC736600C27831 /* Foundation.framework */,
 				07874DA817DC736600C27831 /* CoreGraphics.framework */,
 				07874DAA17DC736600C27831 /* UIKit.framework */,
@@ -169,17 +243,6 @@
 				07874DCE17DC736600C27831 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		07874DDB17DC73F700C27831 /* OpenEars Framework */ = {
-			isa = PBXGroup;
-			children = (
-				07874DDC17DC73F700C27831 /* AcousticModelEnglish.bundle */,
-				07874DDD17DC73F700C27831 /* AcousticModelSpanish.bundle */,
-				07874DDE17DC73F700C27831 /* OpenEars.framework */,
-				07874DDF17DC73F700C27831 /* Slt.framework */,
-			);
-			path = "OpenEars Framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07874DBF17DC736600C27831 /* Images.xcassets in Resources */,
-				07874DE117DC73F700C27831 /* AcousticModelSpanish.bundle in Resources */,
-				07874DE017DC73F700C27831 /* AcousticModelEnglish.bundle in Resources */,
+				0701036F17DC85D2007910A8 /* R1PhotoEffectsResources.bundle in Resources */,
+				0701036317DC8235007910A8 /* AcousticModelSpanish.bundle in Resources */,
+				0701036217DC8235007910A8 /* AcousticModelEnglish.bundle in Resources */,
+				0701036E17DC85D2007910A8 /* Integration.pdf in Resources */,
+				0701037117DC85D2007910A8 /* VERSION in Resources */,
 				07874DB117DC736600C27831 /* InfoPlist.strings in Resources */,
 				07874DBA17DC736600C27831 /* Main.storyboard in Resources */,
 			);
@@ -410,10 +476,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Neeraj/Dropbox/Ideas/SpeakToSnap/SpeakToSnap/OpenEars\\ Framework",
+					"/Users/Neeraj/Dropbox/Ideas/speaktosnap/OpenEars\\ Framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeakToSnap/SpeakToSnap-Prefix.pch";
 				INFOPLIST_FILE = "SpeakToSnap/SpeakToSnap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Neeraj/Dropbox/Ideas/speaktosnap/R1PhotoEffectsSDK,
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -427,10 +499,16 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Neeraj/Dropbox/Ideas/SpeakToSnap/SpeakToSnap/OpenEars\\ Framework",
+					"/Users/Neeraj/Dropbox/Ideas/speaktosnap/OpenEars\\ Framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeakToSnap/SpeakToSnap-Prefix.pch";
 				INFOPLIST_FILE = "SpeakToSnap/SpeakToSnap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Neeraj/Dropbox/Ideas/speaktosnap/R1PhotoEffectsSDK,
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -495,6 +573,7 @@
 				07874DD717DC736600C27831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07874DD817DC736600C27831 /* Build configuration list for PBXNativeTarget "SpeakToSnapTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +582,7 @@
 				07874DDA17DC736600C27831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

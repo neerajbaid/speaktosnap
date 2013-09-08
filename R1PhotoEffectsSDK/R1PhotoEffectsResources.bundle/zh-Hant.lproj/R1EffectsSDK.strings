@@ -1,0 +1,32 @@
+/* 
+  File.strings
+  R1PhotoEffectsSDK
+
+  Created by Drew Colace on 8/29/13.
+  Copyright (c) 2013 RadiumOne, Inc. All rights reserved.
+*/
+
+// Navigation Button Titles
+"Next" = "Done";
+"Cancel" = "Cancel";
+
+// Crop Screen Title
+"Crop" = "裁剪";
+
+//Crop Preset Titles
+"Normal" = "原圖";
+"Square" = "1x1";
+"Custom" = "?x?";
+"2x3" = "2x3";
+"3x5" = "3x5";
+"3x2" = "3x2";
+"5x3" = "5x3";
+
+// Active Effect Titles
+"Stickers" = "貼紙";
+"Filters" = "特效";
+"Borders" = "邊框";
+"Text" = "文字";
+"Draw" = "Draw";
+
+"NoBorder" = "";

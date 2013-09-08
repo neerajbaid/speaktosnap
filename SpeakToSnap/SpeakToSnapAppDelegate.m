@@ -8,6 +8,7 @@
 
 #import "SpeakToSnapAppDelegate.h"
 #import "SpeakToSnapViewController.h"
+#import "R1PhotoEffectsSDK.h"
 
 @implementation SpeakToSnapAppDelegate
 
@@ -15,7 +16,7 @@
 {
     // Override point for customization after application launch.
 //    [self presentCamera];
-    
+    [[R1PhotoEffectsSDK sharedManager] enableWithClientID:@"90f55bc0-fa9e-0130-5fff-22000afc8c3d"];
     return YES;
 }
 

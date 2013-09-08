@@ -1,0 +1,40 @@
+/* 
+  File.strings
+  R1PhotoEffectsSDK
+
+  Created by Drew Colace on 8/29/13.
+  Copyright (c) 2013 RadiumOne, Inc. All rights reserved.
+*/
+
+// Navigation Button Titles
+"CropDone" = "Next";
+"EffectsDone" = "Next";
+"Next" = "Next";
+"Done" = "Done";
+"Cancel" = "Cancel";
+
+// Crop Screen Title
+"Crop" = "Crop";
+
+//Crop Preset Titles
+"Normal" = "Normal";
+"Square" = "Square";
+"Custom" = "Custom";
+"2x3" = "2x3";
+"3x5" = "3x5";
+"3x2" = "3x2";
+"5x3" = "5x3";
+
+// Active Effect Titles
+"Stickers" = "Stickers";
+"Filters" = "Filters";
+"Borders" = "Borders";
+"Text" = "Text";
+"Draw" = "Draw";
+
+// Loading Prompt
+"Loading" = "Loading";
+
+"Alert" = "Alert";
+"PayentProblem" = "We are unable to process your payment";
+"OK" = "OK";

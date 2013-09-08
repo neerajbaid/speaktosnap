@@ -11,8 +11,9 @@
 #import <OpenEars/PocketsphinxController.h>
 #import <OpenEars/AcousticModel.h>
 #import <OpenEars/OpenEarsEventsObserver.h>
+#import "R1PhotoEffectsSDK.h"
 
-@interface SpeakToSnapViewController : UIViewController <OpenEarsEventsObserverDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface SpeakToSnapViewController : UIViewController <OpenEarsEventsObserverDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, R1PhotoEffectsEditingViewControllerDelegate, UIAlertViewDelegate>
 {
     PocketsphinxController *pocketsphinxController;
     OpenEarsEventsObserver *openEarsEventsObserver;
