@@ -78,7 +78,9 @@
 
 - (void)photoEffectsEditingViewControllerDidCancel:(R1PhotoEffectsEditingViewController *)controller
 {
-    [self dismissViewControllerAnimated:YES completion:Nil];
+    [self dismissViewControllerAnimated:YES completion:^{
+        [self presentCamera];
+    }];
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
@@ -170,7 +172,7 @@
 {
     [super viewDidLoad];
     
-    _strings = [NSArray arrayWithObjects:@"TAKE A PICTURE", @"PICTURE", @"PIC", @"TAKE PIC", @"TAKE A PIC", nil];
+    _strings = [NSArray arrayWithObjects:@"TAKE A PICTURE", @"PICTURE", @"PIC", @"TAKE PIC", @"TAKE A PIC", @"SELFIE", @"SELFY", @"SELFI", @"TAKE A SELFIE", @"TAKE A SELFY", @"TAKE A SELFI", nil];
     
     LanguageModelGenerator *lmGenerator = [[LanguageModelGenerator alloc] init];
     NSMutableArray *words = [NSMutableArray arrayWithArray:_strings];
@@ -201,7 +203,7 @@
     [self.openEarsEventsObserver setDelegate:self];
     [self.pocketsphinxController startListeningWithLanguageModelAtPath:lmPath dictionaryAtPath:dicPath acousticModelAtPath:[AcousticModel pathToModel:@"AcousticModelEnglish"] languageModelIsJSGF:NO];
     
-    [_backgroundImage setBackgroundColor:[UIColor blackColor]];
+    [_backgroundImage setBackgroundColor:[UIColor colorWithRed:207/255.0 green:81/255.0 blue:81/255.0 alpha:1]];
     [_spinner startAnimating];
     
 }
